@@ -68,7 +68,7 @@
 }
 /*** nav-bar right icons**/
 .nav-icons i {
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 .cart-badge,
 .wishlist-badge {
