@@ -68,7 +68,7 @@
 }
 /*** nav-bar right icons**/
 .nav-icons i {
-  font-size: 2rem !important;
+  font-size: 2rem;
 }
 .cart-badge,
 .wishlist-badge {
@@ -78,7 +78,7 @@
   left: 2rem;
   height: 1.3rem;
   width: 1.2rem;
-  background-color: red;
+  background-color: var(--red-color);
 }
 .wishlist-badge {
   left: 2.4rem;
