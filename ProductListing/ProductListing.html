@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="GamersKart is a Online Shopping Website - Where you can find all gamming related Gadgets, Accessories ... "
+    />
+    <meta name="keywords" content="ps5 , FIFA2K22" />
+    <meta name="author" content=" Uday Kumar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- /************ google icons ****************/ -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- /****** font awesome ***************/ -->
+    <script
+      src="https://kit.fontawesome.com/285da7d76b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- /******* ReadyMade-UI********/ -->
+    <link
+      rel="stylesheet"
+      href="https://readymade-ui.netlify.app/CSS/main.css"
+    />
+    <link rel="stylesheet" href="ProductListing.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Product Listing | GamersKart</title>
+  </head>
+  <body>
+    <section class="wrapper">
+      <nav class="navigation">
+        <a class="logo-img" href="#"
+          ><img src="/Asserts/logo-3.png" alt="" />
+        </a>
+        <div class="search-filter">
+          <span class="search-icon"><i class="fas fa-search"></i></span>
+          <input class="search-space" type="text" />
+        </div>
+        <div class="rigth-icons">
+          <div class="badge-container">
+            <span class="nav-icons">
+              <a href="#"><i class="fas fa-thin fa-heart"></i></a>
+            </span>
+            <span class="wishlist-badge icon-badge-count bell-icon">9</span>
+          </div>
+
+          <div class="badge-container">
+            <span class="nav-icons">
+              <a href="#"><i class="material-icons"> shopping_cart </i> </a>
+            </span>
+            <span class="cart-badge icon-badge-count bell-icon">2</span>
+          </div>
+          <a href="#">
+            <img
+              class="avatar-xs-size avatar-circle"
+              src="https://i.pravatar.cc/150?img=12"
+              alt="avatar"
+            />
+          </a>
+        </div>
+      </nav>
+      <main class="product-layout">
+        <aside class="aside-bar flex-col">
+          <div class="filter-tite">
+            <h6><strong>Filters</strong></h6>
+            <span>Clear</span>
+          </div>
+          <div class="price-section">
+            <h6>Price</h6>
+            <div class="price-range flex">
+              <p>50</p>
+              <p>500</p>
+              <p>1000</p>
+            </div>
+            <div class="slide-conatiner">
+              <input
+                type="range"
+                min="1000"
+                max="100000"
+                value="5000"
+                class="slider"
+              />
+            </div>
+          </div>
+          <!-- /* Category */ -->
+          <div>
+            <h6>Category</h6>
+            <div class="category-list flex-col">
+              <div class="category-item">
+                <input type="checkbox" name="" id="console" />
+                <label for="console">Consoles</label>
+              </div>
+              <div class="category-item">
+                <input type="checkbox" name="" id="controllers" />
+                <label for="controllers">Controllers</label>
+              </div>
+              <div class="category-item">
+                <input type="checkbox" name="" id="games" />
+                <label for="games">Games</label>
+              </div>
+              <div class="category-item">
+                <input type="checkbox" name="" id="accessories" />
+                <label for="accessories">Accessories</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- /* Rating */ -->
+          <div>
+            <h6>Rating</h6>
+            <div class="flex-col rating-list">
+              <div class="rating-item">
+                <input type="radio" name="rating" id="four-star" />
+                <label for="four-star">4 Stars & above</label>
+              </div>
+              <div class="rating-item">
+                <input type="radio" name="rating" id="three-star" />
+                <label for="three-star">3 Stars & above</label>
+              </div>
+              <div class="rating-item">
+                <input type="radio" name="rating" id="two-star" />
+                <label for="two-star">2 Stars & above</label>
+              </div>
+              <div class="rating-item">
+                <input type="radio" name="rating" id="one-star" />
+                <label for="one-star">1 Stars & above</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- /* sort */ -->
+          <div>
+            <h6>Sort by</h6>
+            <div class="flex-col sort-list">
+              <div class="sort-item">
+                <input type="radio" name="sortby" id="low-to-high" />
+                <label for="low-to-high">Price - Low to High</label>
+              </div>
+              <div class="sort-item">
+                <input type="radio" name="sortby" id="high-to-low" />
+                <label for="high-to-low">Price - High to Low</label>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <!-- /*Product -list */ -->
+        <section class="products flex">
+          <div class="cards">
+            <div class="card-outer-container">
+              <div class="card-inner-container">
+                <div class="card-image">
+                  <img
+                    class="small-img"
+                    src="/Asserts/controller-1.jpg"
+                    alt="ps5"
+                  />
+                  <span class="card-label">New</span>
+                </div>
+                <div class="card-info flex-col">
+                  <span class="card-title">PS5™ Controller</span>
+                  <div class="rating-badge flex">
+                    <span class="rating-badge-number">
+                      3<i class="fas fa-star gold-color"></i>
+                    </span>
+                    <span class="rating-badge-number">|</span>
+                    <span class="rating-badge-number">5</span>
+                  </div>
+                  <div class="price-details">
+                    <span class="current-price">₹5,499</span>
+                    <span class="previous-price">₹5,990 </span>
+                    <span class="discount-percentage">8% off </span>
+                    <button class="btn-wishlist">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / product / -->
+          <div class="cards">
+            <div class="card-outer-container">
+              <div class="card-inner-container">
+                <div class="card-image">
+                  <img
+                    class="small-img"
+                    src="/Asserts/dualsense-charging-station-image-block-01-en-02jul20.jpg"
+                    alt="ps5"
+                  />
+                  <span class="card-label">New</span>
+                </div>
+                <div class="card-info flex-col">
+                  <span class="card-title">DualSense charging station</span>
+                  <div class="rating-badge flex">
+                    <span class="rating-badge-number">
+                      3<i class="fas fa-star gold-color"></i>
+                    </span>
+                    <span class="rating-badge-number">|</span>
+                    <span class="rating-badge-number">5</span>
+                  </div>
+                  <div class="price-details">
+                    <span class="current-price">₹6,499</span>
+                    <span class="previous-price">₹9,990 </span>
+                    <span class="discount-percentage">8% off </span>
+                    <button class="btn-wishlist">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / product / -->
+          <div class="cards">
+            <div class="card-outer-container">
+              <div class="card-inner-container">
+                <div class="card-image">
+                  <img src="/Asserts/console-mini.png" alt="ps5" />
+                  <span class="card-label">Pre Order</span>
+                </div>
+                <div class="card-info flex-col">
+                  <span class="card-title">PS5™ Controller</span>
+                  <div class="rating-badge flex">
+                    <span class="rating-badge-number">
+                      5<i class="fas fa-star gold-color"></i>
+                    </span>
+                    <span class="rating-badge-number">|</span>
+                    <span class="rating-badge-number">5</span>
+                  </div>
+                  <div class="price-details">
+                    <span class="current-price">₹49,999</span>
+                    <span class="previous-price">₹5,990 </span>
+                    <span class="discount-percentage">8% off </span>
+                    <button class="btn-wishlist">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / product / -->
+          <div class="cards">
+            <div class="card-outer-container">
+              <div class="card-inner-container">
+                <div class="card-image">
+                  <img
+                    class="small-img"
+                    src="/Asserts/controller-2.jpg"
+                    alt="ps5"
+                  />
+                  <span class="card-label">New</span>
+                </div>
+                <div class="card-info flex-col">
+                  <span class="card-title">PS5™ Controller</span>
+                  <div class="rating-badge flex">
+                    <span class="rating-badge-number">
+                      3<i class="fas fa-star gold-color"></i>
+                    </span>
+                    <span class="rating-badge-number">|</span>
+                    <span class="rating-badge-number">5</span>
+                  </div>
+                  <div class="price-details">
+                    <span class="current-price">₹5,499</span>
+                    <span class="previous-price">₹5,990 </span>
+                    <span class="discount-percentage">8% off </span>
+                    <button class="btn-wishlist">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / product / -->
+          <div class="cards">
+            <div class="card-outer-container">
+              <div class="card-inner-container">
+                <div class="card-image">
+                  <img src="/Asserts/fifa1.webp" alt="ps5" />
+                  <span class="card-label">Treanding</span>
+                </div>
+                <div class="card-info flex-col">
+                  <span class="card-title">FIFA 22 PS4™</span>
+                  <div class="rating-badge flex">
+                    <span class="rating-badge-number">
+                      5<i class="fas fa-star gold-color"> </i>
+                    </span>
+                    <span class="rating-badge-number">|</span>
+                    <span class="rating-badge-number">5</span>
+                  </div>
+                  <div class="price-details">
+                    <span class="current-price">₹3,999</span>
+                    <span class="previous-price">₹3,599 </span>
+                    <span class="discount-percentage">10% off </span>
+                    <button class="btn-wishlist">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / product / -->
+          <div class="cards">
+            <div class="card-outer-container game-card-outer">
+              <div class="card-inner-container">
+                <div class="card-image game-card">
+                  <img src="/Asserts/nba1.webp" alt="ps5" />
+                  <!-- <span class="card-label"></span> -->
+                </div>
+                <div class="card-info flex-col">
+                  <span class="card-title">NBA 2K21 Next Generation</span>
+                  <div class="rating-badge flex">
+                    <span class="rating-badge-number">
+                      3<i class="fas fa-star gold-color"></i>
+                    </span>
+                    <span class="rating-badge-number">|</span>
+                    <span class="rating-badge-number">5</span>
+                  </div>
+                  <div class="price-details">
+                    <span class="current-price">₹4,599</span>
+                    <!-- <span class="previous-price">₹5,990 </span> -->
+                    <!-- <span class="discount-percentage">8% off </span> -->
+                    <button class="btn-wishlist">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / product / -->
+          <div class="cards">
+            <div class="card-outer-container game-card-outer">
+              <div class="card-inner-container">
+                <div class="card-image game-card">
+                  <img
+                    class="small-img"
+                    src="/Asserts/3d-pulse-headset-midnight-black-screenshot-04-en-03sep21.jpg"
+                    alt="ps5"
+                  />
+                  <span class="card-label">New</span>
+                </div>
+                <div class="card-info flex-col">
+                  <span class="card-title"
+                    >Sony Pulse 3D Bluetooth Wireless Headphone
+                  </span>
+                  <div class="rating-badge flex">
+                    <span class="rating-badge-number">
+                      4<i class="fas fa-star gold-color"></i>
+                    </span>
+                    <span class="rating-badge-number">|</span>
+                    <span class="rating-badge-number">5</span>
+                  </div>
+                  <div class="price-details">
+                    <span class="current-price">₹8,590</span>
+                    <!-- <span class="previous-price">₹5,990 </span> -->
+                    <!-- <span class="discount-percentage">8% off </span> -->
+                    <button class="btn-wishlist">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / product / -->
+          <div class="cards">
+            <div class="card-outer-container game-card-outer">
+              <div class="card-inner-container">
+                <div class="card-image game-card">
+                  <img
+                    src="/Asserts/far-cry-6-store-art-01-ps5-22apr21$en.jpg"
+                    alt="ps5"
+                  />
+                  <!-- <span class="card-label"></span> -->
+                </div>
+                <div class="card-info flex-col">
+                  <span class="card-title">FAR CRY®6 Standard Edition</span>
+                  <div class="rating-badge flex">
+                    <span class="rating-badge-number">
+                      3<i class="fas fa-star gold-color"></i>
+                    </span>
+                    <span class="rating-badge-number">|</span>
+                    <span class="rating-badge-number">5</span>
+                  </div>
+                  <div class="price-details">
+                    <span class="current-price">₹2,399</span>
+                    <span class="previous-price">₹3,990 </span>
+                    <span class="discount-percentage">40% off </span>
+                    <button class="btn-wishlist">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- / product / -->
+          <div class="cards">
+            <div class="card-outer-container game-card-outer">
+              <div class="card-inner-container">
+                <div class="card-image game-card">
+                  <img
+                    class="small-img"
+                    src="/Asserts/xbox.jpg"
+                    alt="Headphone"
+                  />
+                  <!-- <span class="card-label"></span> -->
+                </div>
+                <div class="card-info flex-col">
+                  <span class="card-title">Xbox Stereo Headset</span>
+                  <div class="rating-badge flex">
+                    <span class="rating-badge-number">
+                      3<i class="fas fa-star gold-color"></i>
+                    </span>
+                    <span class="rating-badge-number">|</span>
+                    <span class="rating-badge-number">5</span>
+                  </div>
+                  <div class="price-details">
+                    <span class="current-price">₹5,990</span>
+                    <!-- <span class="previous-price"> </span>
+                    <span class="discount-percentage">40% off </span> -->
+                    <button class="btn-wishlist">
+                      <i class="fas fa-heart"></i>
+                    </button>
+                  </div>
+                  <div class="card-btns">
+                    <button class="card-cart-btn">
+                      <i class="material-icons"> shopping_cart </i> Add To Cart
+                    </button>
+                    <button class="card-buy-btn">
+                      <i class="material-icons">flash_on </i>Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </section>
+  </body>
+</html>
