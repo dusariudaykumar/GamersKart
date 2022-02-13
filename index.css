@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   border: 0;
+  /* outline: 2px solid cyan; */
 }
 
 /* /grid-container/ */
@@ -13,18 +14,19 @@
     "header header header header header"
     "products products products products products"
     "left-footer left-footer . right-footer right-footer";
-  grid-gap: 20px;
+  /* grid-gap: 20px; */
 }
 .nav-bar {
   grid-area: header;
-  height: 10vh;
-  width: 100vw;
+  height: auto;
+  width: 100%;
   position: fixed;
   z-index: 999;
   background-color: var(--white);
 }
 .nav-bar-wrapper {
-  justify-content: space-between;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
 }
 .logo {
   justify-self: center;
@@ -198,8 +200,7 @@
 /* footer */
 .footer {
   background-color: var(--footer-bg);
-  height: 100vh;
-
+  height: 50vh;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
