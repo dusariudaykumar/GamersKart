@@ -60,7 +60,9 @@
   flex: 0 0 33.333333%;
   gap: 1rem;
 }
-
+.bottom-img-btn {
+  margin: 4rem;
+}
 /* footer */
 .footer {
   grid-area: footer;
