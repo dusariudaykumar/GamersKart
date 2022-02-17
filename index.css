@@ -22,9 +22,7 @@
 }
 
 .bottom-img-btn {
-  display: grid;
   justify-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
 }
 
 .cover-img {

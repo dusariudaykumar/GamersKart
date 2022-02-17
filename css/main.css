@@ -102,3 +102,22 @@ p {
   text-transform: capitalize;
   padding: 0.5rem;
 }
+
+/*Media query */
+@media only screen and (max-width: 630px) {
+  .search-filter {
+    display: none;
+  }
+  .aside-bar {
+    display: none;
+  }
+  .product-layout {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "product  ";
+  }
+  .products {
+    justify-content: center;
+    align-items: center;
+  }
+}
