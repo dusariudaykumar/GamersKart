@@ -26,16 +26,16 @@
 }
 
 .cover-img {
-  display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  margin: auto;
+  width: 100vw;
   position: relative;
 }
 
 .home-banner {
-  max-width: 100%;
+  width: 100%;
+  aspect-ratio: 2/1;
+  object-fit: fill;
 }
 
 /**botton card**/
@@ -59,7 +59,10 @@
   gap: 1rem;
 }
 .bottom-img-btn {
-  margin: 4rem;
+  margin: 2rem 4rem;
+}
+.category-card img:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 /* footer */
 .footer {
