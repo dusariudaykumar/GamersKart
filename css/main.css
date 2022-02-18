@@ -16,6 +16,7 @@
   --cart-btn-color: #d63d00;
   --btn-primary-color: #2e65e6;
   --ligth-gray: #d3d3d3;
+  --login-box-shadow: #0000001a 0px 4px 12px;
 }
 * {
   box-sizing: border-box;
