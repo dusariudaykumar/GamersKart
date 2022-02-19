@@ -40,6 +40,14 @@
   width: 100%;
   text-transform: capitalize;
 }
+
+.login-link,
 .sign-up {
-  margin: 2rem 0;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.flex-align-item-center {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
 }

@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="GamersKart is a Online Shopping Website - Where you can find all gamming related Gadgets, Accessories ... "
+      content="GamersKart is a Online Shopping Website - Where you can find all Gaming related Gadgets, Accessories ... "
     />
     <meta name="keywords" content="ps5 , FIFA2K22" />
     <meta name="author" content=" Uday Kumar" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- /** fav icon **/ -->
+    <link rel="icon" type="image/x-icon" href="/Asserts/fav-icon2.png" />
     <!-- /******* ReadyMade-UI********/ -->
     <link
       rel="stylesheet"
@@ -22,6 +24,7 @@
   </head>
   <body>
     <section class="wrapper">
+      <!-- /** Navigation bar **/ -->
       <nav class="navigation">
         <a class="logo-img" href="/index.html"
           ><img src="/Asserts/logo-3.png" alt="Logo" />
@@ -51,6 +54,7 @@
         </div>
       </nav>
       <main class="form-wrapper flex">
+        <!-- /** Main container **/ -->
         <section>
           <div class="login-wrapper">
             <form class="flex-col form-container">
@@ -73,7 +77,7 @@
                   placeholder="Password"
                   required
                 />
-                <div>
+                <div class="flex-align-item-center">
                   <input type="checkbox" name="" id="terms-conditons" />
                   <label for="terms-conditons">
                     I accept all Terms & Conditions
@@ -81,8 +85,9 @@
                 </div>
                 <button class="btn btn-solid">Create New Account</button>
               </div>
-              <a class="sign-up" href="/Authentication/Login.html">
+              <a class="login-link flex" href="/Authentication/Login.html">
                 Already have an account
+                <span class="material-icons-outlined"> chevron_right </span>
               </a>
             </form>
           </div>
