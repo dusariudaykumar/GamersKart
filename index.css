@@ -34,7 +34,6 @@
 
 .home-banner {
   width: 100%;
-  aspect-ratio: 2/1;
   object-fit: fill;
 }
 
@@ -77,7 +76,8 @@
   margin-top: 5rem;
 }
 
-.footer-nav-links li {
+.footer-nav-links li,
+.footer-copyright-text {
   list-style: none;
   padding: 0.5rem;
   font-size: 1.2rem;
