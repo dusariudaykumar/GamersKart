@@ -34,8 +34,8 @@
 
 .home-banner {
   width: 100%;
-  aspect-ratio: 6/3;
   object-fit: fill;
+  aspect-ratio: 5/2;
 }
 
 /**botton card**/
@@ -94,4 +94,10 @@
   font-size: 2rem;
   color: var(--white);
   margin: 0.4rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .home-banner {
+    aspect-ratio: 6/3;
+  }
 }
