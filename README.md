@@ -5,8 +5,16 @@ GamersKart is an online E-commerce Store for gaming related accessories.
   https://gamerskart.netlify.app/
 
 ## Demo
-insert gif
 
+![GamersKart-1](https://user-images.githubusercontent.com/78147748/154954877-e1e34956-dde8-4d98-95f0-e2fe09f0542c.gif)
+
+## Features
+- Fully Responsives Pages
+- Home Page
+- Product Pages
+- Login/SignUp Pages
+- Wishlist Pages
+- Cart Pages
 
 ## Run Locally
 
@@ -43,15 +51,3 @@ Go to the project directory
 ## Authors
 
 - [Uday Kumar](https://github.com/dusariudaykumar)
-
-
-
-
-
-
-
-
-
-
-
-
